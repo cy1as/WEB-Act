@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Little Archive</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- NAVIGATION -->
+
+<nav class="archive-navbar">
+
+    <div class="nav-container">
+
+        <a
+            class="archive-logo"
+            href="landing.html">
+
+            ✦ MY LITTLE ARCHIVE
+
+        </a>
+
+
+        <input
+            type="checkbox"
+            id="menu-toggle">
+
+
+        <label
+            for="menu-toggle"
+            class="menu-button">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </label>
+
+
+        <div class="archive-menu">
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#interests">
+                My World
+            </a>
+
+            <a href="#favorites">
+                Favorites
+            </a>
+
+            <a
+                class="logout-link"
+                href="login.html"
+                onclick="logout()">
+
+                Logout
+
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- HERO -->
+
+<section
+    class="archive-hero"
+    id="home">
+
+
+    <div class="stars star-one">
+        ✦
+    </div>
+
+    <div class="stars star-two">
+        ✦
+    </div>
+
+    <div class="stars star-three">
+        ·
+    </div>
+
+    <div class="stars star-four">
+        ✦
+    </div>
+
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+
+            <div class="col-lg-7 hero-text">
+
+                <p class="hero-label">
+                    A SMALL CORNER OF MY WORLD
+                </p>
+
+
+                <h1>
+
+                    Somewhere between
+                    <span>
+                        the stars and strings.
+                    </span>
+
+                </h1>
+
+
+                <!-- WELCOME MESSAGE -->
+
+                <h4 id="welcomeMessage">
+                    Welcome!
+                </h4>
+
+
+                <p class="hero-description">
+
+                    A little collection of the things,
+                    places, music, stories, and moments
+                    that make life feel like mine.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#interests"
+                        class="archive-button">
+
+                        Explore My World
+
+                    </a>
+
+
+                    <a
+                        href="#about"
+                        class="outline-button">
+
+                        About Me
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-5">
+
+                <div class="hero-photo">
+
+                    <img
+                        src="images/hero.jpg"
+                        alt="A peaceful evening sky">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ABOUT -->
+
+<section
+    class="about-section"
+    id="about">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-5">
+
+                <div class="about-circle">
+
+                    <span>
+                        ✍
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-7">
+
+                <p class="section-label">
+                    A LITTLE ABOUT ME
+                </p>
+
+
+                <h2>
+                    I find meaning in
+                    the little things.
+                </h2>
+
+
+                <p class="about-text">
+
+                    I'm someone who enjoys music, books,
+                    writing, quiet walks, running, and simply
+                    taking a moment to look at the sky.
+
+                    This website is a small collection of
+                    the things that interest me and the
+                    experiences that have become part of
+                    my journey.
+
+                </p>
+
+
+                <p class="about-text">
+
+                    I'm still figuring things out,
+                    but that's part of the journey too.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- MY WORLD -->
+
+<section
+    class="world-section"
+    id="interests">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                MY WORLD
+            </p>
+
+            <h2>
+                Things that keep me going.
+            </h2>
+
+            <p>
+                A few things that make ordinary days
+                a little more meaningful.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <article class="world-card">
+
+                    <img
+                        src="images/music.jpg"
+                        alt="My interest in music"
+                        class="world-image">
+
+                    <h3>
+                        Music
+                    </h3>
+
+                    <p>
+                        Guitar, bass, drums, and songs
+                        that somehow say what words can't.
+                    </p>
+
+                    <span class="card-link">
+                        Strings & sounds →
+                    </span>
+
+                </article>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <article class="world-card">
+
+                    <div class="card-icon">
+                        ✍
+                    </div>
+
+                    <h3>
+                        Writing
+                    </h3>
+
+                    <p>
+                        Thoughts, letters, little observations,
+                        and things I don't always say out loud.
+                    </p>
+
+                    <span class="card-link">
+                        Thoughts & words →
+                    </span>
+
+                </article>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <article class="world-card">
+
+                    <img
+                        src="images/night.jpg"
+                        alt="A peaceful night"
+                        class="world-image">
+
+                    <h3>
+                        Night Walks
+                    </h3>
+
+                    <p>
+                        Quiet streets, cool air, music,
+                        and time to think without rushing.
+                    </p>
+
+                    <span class="card-link">
+                        After dark →
+                    </span>
+
+                </article>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <article class="world-card">
+
+                    <img
+                        src="images/books.jpg"
+                        alt="Books that I enjoy"
+                        class="world-image">
+
+                    <h3>
+                        Books
+                    </h3>
+
+                    <p>
+                        Stories that stay in my head long
+                        after I've finished reading them.
+                    </p>
+
+                    <span class="card-link">
+                        Pages & stories →
+                    </span>
+
+                </article>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <article class="world-card">
+
+                    <img
+                        src="images/running.jpg"
+                        alt="Running"
+                        class="world-image">
+
+                    <h3>
+                        Running
+                    </h3>
+
+                    <p>
+                        One of the ways I clear my head,
+                        get moving, and spend some time alone.
+                    </p>
+
+                    <span class="card-link">
+                        One step at a time →
+                    </span>
+
+                </article>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <article class="world-card">
+
+                    <div class="card-icon">
+                        🌿
+                    </div>
+
+                    <h3>
+                        Nature
+                    </h3>
+
+                    <p>
+                        Plants, animals, open skies,
+                        and the quiet things around me.
+                    </p>
+
+                    <span class="card-link">
+                        Slow down →
+                    </span>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- FAVORITES -->
+
+<section
+    class="favorites-section"
+    id="favorites">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                A FEW FAVORITES
+            </p>
+
+            <h2>
+                Things I keep coming back to.
+            </h2>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <div class="col-md-4">
+
+                <div class="favorite-card">
+
+                    <span class="favorite-icon">
+                        ♪
+                    </span>
+
+                    <h3>
+                        Music
+                    </h3>
+
+                    <p>
+                        Hozier · Daniel Caesar ·
+                        Ben&Ben · Arctic Monkeys
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="favorite-card">
+
+                    <span class="favorite-icon">
+                        ◈
+                    </span>
+
+                    <h3>
+                        Stories
+                    </h3>
+
+                    <p>
+                        The Fault in Our Stars ·
+                        The Perks of Being a Wallflower
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="favorite-card">
+
+                    <span class="favorite-icon">
+                        ☾
+                    </span>
+
+                    <h3>
+                        Movies
+                    </h3>
+
+                    <p>
+                        Before Sunrise · About Time ·
+                        Eternal Sunshine
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- GALLERY -->
+
+<section class="gallery-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                LITTLE MOMENTS
+            </p>
+
+            <h2>
+                A few things worth remembering.
+            </h2>
+
+        </div>
+
+
+        <div class="row g-3">
+
+            <div class="col-6 col-lg-3">
+
+                <img
+                    src="images/moment1.png"
+                    alt="A Memory Worth Reliving"
+                    class="gallery-image">
+
+            </div>
+
+
+            <div class="col-6 col-lg-3">
+
+                <img
+                    src="images/moment2.png"
+                    alt="Moments I treasure With all my heart"
+                    class="gallery-image">
+
+            </div>
+
+
+            <div class="col-6 col-lg-3">
+
+                <img
+                    src="images/moment3.jpg"
+                    alt="Beautiful Moon"
+                    class="gallery-image">
+
+            </div>
+
+
+            <div class="col-6 col-lg-3">
+
+                <img
+                    src="images/moment4.jpg"
+                    alt="Dusk In the City"
+                    class="gallery-image">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer class="archive-footer">
+
+    <div class="container text-center">
+
+        <div class="footer-symbol">
+            ✦
+        </div>
+
+        <h3>
+            My Little Archive
+        </h3>
+
+        <p>
+            Somewhere between the stars and strings.
+        </p>
+
+        <small>
+            © 2026 My Little Archive
+        </small>
+
+    </div>
+
+</footer>
+
+
+
+<script>
+
+   
+
+    if (
+        sessionStorage.getItem("loggedIn") !== "true"
+    ) {
+
+        window.location.href =
+            "login.html";
+
+    }
+
+
+    /*
+        DISPLAY USERNAME
+    */
+
+    const username =
+        sessionStorage.getItem("loggedUsername");
+
+
+    if (username) {
+
+        document.getElementById(
+            "welcomeMessage"
+        ).textContent =
+            "Welcome, " + username + "!";
+
+    }
+
+
+
+    function logout() {
+
+        sessionStorage.removeItem(
+            "loggedIn"
+        );
+
+        sessionStorage.removeItem(
+            "loggedUsername"
+        );
+
+    }
+
+</script>
+
+
+</body>
+
+</html>
